@@ -10,8 +10,5 @@
 </supportedVersions>
 
 <packageId>ZIRI.init.test</packageId> <!--系列-->
-<description>
-仅仅是测试而已(just test code only)
-加入了一种新的雪人-来源:https://tieba.baidu.com/p/6881368885?see_lz=1&pn=2
-</description> <!--描述-->
+<description>仅仅是测试而已(just test code only)</description> <!--描述-->
 </ModMetaData>
