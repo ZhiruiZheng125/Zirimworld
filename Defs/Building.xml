@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<defs>
+
+    <ThingDef ParentName="BuildingBase"> <!-- 运用base调用?-->
+        <defName>ZR_Building_TestTorrect_Base</defName> <!-- unique id for this object-->
+
+        <label>原型测试炮塔</label> <!-- 名称-->
+
+        <description>这只是一个测试炮台</description>
+
+        <thingClass>Building</thingClass> <!-- 自动定义类型-->
+
+        <size>(2,2)</size><!-- 建筑尺寸-->
+
+        <uiIconPath>UI/ZR_UI_CER_Long</uiIconPath> <!--建筑的ui路径-->
+        <uiIconScale>1.5</uiIconScale> <!--ui的大小-->
+
+        <graphicData>
+            <textPath>Buildings/ZR_Building_TestTorrect_Base</textPath> <!--贴图路径-->
+
+            <graphicClass>Graphic_Single</graphicClass> <!--贴图的类,单物品-->
+
+            <shaderType>Transparent</shaderType> <!--阴影种类=> 透明-->
+
+            <drawSize>(2,2)</drawSize> <!--图像大小-->
+
+            <damageData> <!--受伤系数与方向-->
+                <rect>(0.05,0.05,0.3,0.3)</rect>
+            </damageData>
+        </graphicData>
+        <rotatable>true</rotatable> <!--是否旋转 => 可-->
+
+    </ThingDef>
+
+
+
+</defs>
