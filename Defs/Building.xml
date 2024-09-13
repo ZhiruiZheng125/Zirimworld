@@ -2,7 +2,7 @@
 
 <defs>
 
-    <ThingDef ParentName="BuildingBase"> <!-- 运用base调用?-->
+    <!-- <ThingDef ParentName="BuildingBase"> <!-- 运用base调用?-->
         <defName>ZR_Building_TestTorrect_Base</defName> <!-- unique id for this object-->
 
         <label>原型测试炮塔</label> <!-- 名称-->
@@ -30,9 +30,44 @@
             </damageData>
         </graphicData>
         <rotatable>true</rotatable> <!--是否旋转 => 可-->
+        <!--物品分类器-->
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+        <minifiedDef>MinifiedThing</minifiedDef><!--可以搬运--> 
+    <thingCategories Inherit="false" />
 
-    </ThingDef>
+        <stateBases>
+            <workToBuild>10000</workToBuild>
 
+            <MaxHitPoints>1000</MaxHitPoints> 
+
+            <Flammability>0.5</Flammability> <!--可燃性-->
+
+            <Beauty>-10</Beauty> <!--美观度-->
+
+            <Mass>100</Mass> <!--质量-->
+
+            <MarketValue>999</MarketValue> <!--市场价值-->
+
+            <!--建造成本-->
+            <CostList>
+                <count>100</count>
+                <thingDef>Steel</thingDef>
+            </CostList>
+
+            <placeWorkers></placeWorkers>
+
+            <comps></comps>
+            <designationCategory>Security</designationCategory> 
+
+        </stateBases>
+
+
+
+
+    </ThingDef> -->
+    
 
 
 </defs>
